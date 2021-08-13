@@ -9,12 +9,12 @@ published: true
 :::message
 説明のコードに出てくる`<文字>`を実際に入力する必要はありません。
 間違いなどがあったら教えてください。
-筆者の環境はTeXLive 2020です。
+筆者の環境は TeXLive 2020 です。
 :::
 
 # jsclasses の場合
 
-jsclassesとは、`jsbook`・`jsreport`・`jsarticle`の3つのドキュメントクラスを指します。
+jsclasses とは、`jsbook`・`jsreport`・`jsarticle`の 3 つのドキュメントクラスを指します。
 
 ```LaTeX
 \renewcommand{<コマンド>}{%
@@ -39,7 +39,7 @@ jsclassesとは、`jsbook`・`jsreport`・`jsarticle`の3つのドキュメン�
 }
 ```
 
-詳細は[LaTeX2e新ドキュメントクラス](http://ctan.math.washington.edu/tex-archive/language/japanese/jsclasses/jsclasses.pdf)を見てください。
+詳細は[pLaTeX2e 新ドキュメントクラス](http://ctan.math.washington.edu/tex-archive/language/japanese/jsclasses/jsclasses.pdf)を見てください。
 
 # jlreq の場合
 
@@ -53,11 +53,11 @@ jsclassesとは、`jsbook`・`jsreport`・`jsarticle`の3つのドキュメン�
 
 - `<コマンド>`: 見出しのコマンド名（`\`は除いてください）
 - `<レベル>`: 見出しのレベル
-- `<スタイル>`: 見出しについての設定（`,`区切りのkeyval形式で指定します）
-   - `font=<フォントの設定>`: フォント関連の指定
-   - `align=<揃え方>`: `left/center/right`のいずれかを指定
-   - `before_space=<寸法>`: 見出し前のスペースを設定
-   - `after_space=<寸法>`: 見出し後のスペースを設定
+- `<スタイル>`: 見出しについての設定（`,`区切りの keyval 形式で指定します）
+  - `font=<フォントの設定>`: フォント関連の指定
+  - `align=<揃え方>`: `left/center/right`のいずれかを指定
+  - `before_space=<寸法>`: 見出し前のスペースを設定
+  - `after_space=<寸法>`: 見出し後のスペースを設定
 
 例えば、下のように定義できます。
 
@@ -70,11 +70,11 @@ jsclassesとは、`jsbook`・`jsreport`・`jsarticle`の3つのドキュメン�
 }
 ```
 
-他にも設定できるプロパティが沢山あります。知りたい人は、[jlreqのREADME](https://github.com/abenori/jlreq/blob/master/README-ja.md#見出し)を参照してください。
+他にも設定できるプロパティが沢山あります。知りたい人は、[jlreq の README](https://github.com/abenori/jlreq/blob/master/README-ja.md#見出し)を参照してください。
 
 ## 見出しが連続する時のスペースをカスタマイズする
 
-jlreqには、見出しが連続する時に、スペースを調節できるという機能があります。
+jlreq には、見出しが連続する時にスペースを調節する機能があります。
 
 ```LaTeX
 \SetBlockHeadingSpaces{%
@@ -82,7 +82,7 @@ jlreqには、見出しが連続する時に、スペースを調節できると
 }
 ```
 
-- 上の書き方をすると、`コマンド名（1つ目）`と`コマンド名（2つ目）`が連続した場合のスペースの取り方を定義できます。この定義はいくつも並べることができます（`,`で区切る必要はありません）。
+- `コマンド名（1つ目）`と`コマンド名（2つ目）`が連続した場合のスペースの取り方が定義されます。これはいくつも並べることができます（`,`で区切る必要はありません）。
 - `_<コマンド名>{<スペースの指定>}`で、`<コマンド名>`のスペースを`<スペースの指定>`にします。この定義同士は`,`で区切ります。
 
 指定方法は以下のようになります。
@@ -103,8 +103,8 @@ jlreqには、見出しが連続する時に、スペースを調節できると
 
 # 参考資料
 
-- [pLaTeX2e新ドキュメントクラス](http://ctan.math.washington.edu/tex-archive/language/japanese/jsclasses/jsclasses.pdf)
-- [jlreqのGitHubリポジトリの日本語README](https://github.com/abenori/jlreq/blob/master/README-ja.md)
+- [pLaTeX2e 新ドキュメントクラス（CTAN）](https://ctan.org/pkg/jsclasses)
+- [jlreq の README（GitHub）](https://github.com/abenori/jlreq/blob/master/README-ja.md)
 - [jsclasses (TeX Wiki)](https://texwiki.texjp.org/?jsclasses)
 
 ---
