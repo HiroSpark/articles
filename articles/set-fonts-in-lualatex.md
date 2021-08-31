@@ -6,6 +6,10 @@ topics: ["lualatex", "latex", "tex"]
 published: true
 ---
 
+:::message
+筆者の環境は TeX Live 2020 です。
+:::
+
 # TeX、LaTeX、LuaLaTeX?
 
 LuaTeX は比較的新しい TeX のエンジン（組版をするソフトウェア）で、
@@ -13,8 +17,6 @@ LuaTeX は比較的新しい TeX のエンジン（組版をするソフトウ�
 
 この記事はある程度やの知識があることを前提に解説しています。
 興味を持った方は「美文書作成入門」や「独習 LaTeX2e」といった書籍を購入すると良いと思われます。
-
-なお、筆者の環境は TeX Live 2020 です。
 
 # LuaLaTeX のフォントを指定する方法
 
@@ -105,12 +107,12 @@ ABCDEFG あいうえお % 「NotoSerifJP」に
 | `<key>`の名前   | 説明                                   |
 | --------------- | -------------------------------------- |
 | BoldFont        | **BoldFont**の時に使うフォントを指定   |
-| ItalicFont      | ItalicFont〃                           |
-| BoldItalicFont  | BoldItalicFont〃                       |
-| SlantedFont     | SlantedFont〃                          |
-| BoldSlantedFont | BoldSlantedFont〃                      |
-| SmallCapsFont   | SmallCapsFont〃                        |
-| UprightFont     | UprightFont〃                          |
+| ItalicFont      | ItalicFont 　〃                        |
+| BoldItalicFont  | BoldItalicFont 　〃                    |
+| SlantedFont     | SlantedFont 　〃                       |
+| BoldSlantedFont | BoldSlantedFont 　〃                   |
+| SmallCapsFont   | SmallCapsFont 　〃                     |
+| UprightFont     | UprightFont 　〃                       |
 | Scale           | 指定されたフォントサイズからの拡大縮小 |
 
 # 参考資料
@@ -118,6 +120,6 @@ ABCDEFG あいうえお % 「NotoSerifJP」に
 この記事で紹介したのは、`luatexja-fontspec`パッケージの一部でしかありません。
 さらに知りたい方は、公式ドキュメントを参照してください。
 
-- LuaTeX-ja パッケージ（`luatexja`パッケージの公式ドキュメント）
-- The package ---- Font selection for XeLaTeX and LuaLaTeX
-- 独習 LaTeX2e
+- [`luatexja` – Typeset Japanese with Lua(La)TeX（CTAN）](https://www.ctan.org/pkg/luatexja)
+- [`fontspec` – Advanced font selection in XeLaTeX and LuaLaTeX（CTAN）](https://www.ctan.org/pkg/fontspec)
+- [独習 LaTeX2e（Amazon）](https://www.amazon.co.jp/%E7%8B%AC%E7%BF%92-LaTeX2%CE%B5-%E5%90%89%E6%B0%B8-%E5%BE%B9%E7%BE%8E/dp/4798115363)
