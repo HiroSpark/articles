@@ -77,9 +77,7 @@ TeX Live でユーザーのスタイルファイルを入れるディレクト�
 
 # 参考資料
 
-- [［改訂第 7 版］LaTeX2e 美文書作成入門（Amazon）]
-  (https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054)
-- [独習 LaTeX2e（Amazon）]
-  (https://www.amazon.co.jp/%E7%8B%AC%E7%BF%92-LaTeX2%CE%B5-%E5%90%89%E6%B0%B8-%E5%BE%B9%E7%BE%8E/dp/4798115363)
+- [［改訂第 7 版］LaTeX2e 美文書作成入門（Amazon）](https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054)
+- [独習 LaTeX2e（Amazon）](https://www.amazon.co.jp/%E7%8B%AC%E7%BF%92-LaTeX2%CE%B5-%E5%90%89%E6%B0%B8-%E5%BE%B9%E7%BE%8E/dp/4798115363)
 - [TeX Live ガイド（GitHub）](https://github.com/wtsnjp/texlive-ja)
 - [LaTeX2e unofficial manual](https://latexref.xyz/_005cendinput.html)
