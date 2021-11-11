@@ -13,8 +13,13 @@
       },
       "no-dropping-the-ra": true,
       "no-mix-dearu-desumasu": true,
-      "no-zero-width-spaces": true,
+      "no-zero-width-spaces": true
     },
-    "spellcheck-tech-word": true
+    "spellcheck-tech-word": true,
+    "no-dead-link": {
+      "ignore": [ "https://example.com/*" ],
+      "retry": 3,
+      "maxRetryTime": 10
+    }
   }
 }

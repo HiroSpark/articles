@@ -39,7 +39,7 @@ jsclasses とは、`jsbook`・`jsreport`・`jsarticle`の 3 つのドキュメ�
 }
 ```
 
-詳細は[pLaTeX2e 新ドキュメントクラス](http://ctan.math.washington.edu/tex-archive/language/japanese/jsclasses/jsclasses.pdf)を見てください。
+詳細は[pLaTeX2e 新ドキュメントクラス](https://ctan.math.washington.edu/tex-archive/language/japanese/jsclasses/jsclasses.pdf)を見てください。
 
 # jlreq の場合
 
