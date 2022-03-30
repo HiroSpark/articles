@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "textlint": "textlint **/*.md --fix",
-    "lint": "prettier **/*.md --write && textlint **/*.md --fix"
+    "lint": "textlint **/*.md --fix",
+    "format": "prettier **/*.md --write && textlint **/*.md --fix"
   },
   "dependencies": {
     "prettier": "^2.3.2",
