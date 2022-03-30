@@ -6,6 +6,8 @@ topics: ["latex", "tex"]
 published: true
 ---
 
+案外知られていない、LaTeX の便利な周辺ツールを紹介します。
+
 # Make
 
 `.tex`ファイルをコンパイルするのに、コマンドを何回も打つのは面倒です。そこで**Make**を使って簡単に PDF にコンパイルできるようにします。Make を使うには、以下の形で書かれた`Makefile`を Make を使いたいディレクトリに配置します。
@@ -15,14 +17,14 @@ published: true
 - `<処理>`は上の行から行われます
 - インデントは`tab`のみしか受け付けません
 
-```make
+```makefile
 <生成したいファイル>: <ファイル>
 	<処理>
 ```
 
 そしてコマンドラインで`make`と打ち込んで実行すれば、`Makefile`に書いた処理を実行してくれます。例えば以下のように書くと、`test.pdf`のタイムスタンプが`test.tex`か`test.sty`よりも古い時に、`ptex2pdf -l test.tex`と`open test.pdf`がコマンドラインで実行されます。
 
-```make
+```makefile
 test.pdf: test.tex test.sty
 	ptex2pdf -l test.tex
 	open test.pdf
@@ -54,6 +56,12 @@ $ pandoc <元のファイル> -o <生成するファイル（PDF）> -V document
 
 # 参考資料
 
-- [LaTeX2e 美文書作成入門［改訂第 7 版］](https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054)
+- [LaTeX2e美文書作成入門［改訂第7版］](https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054)
 - [Pandoc ユーザーズガイド 日本語版](http://sky-y.github.io/site-pandoc-jp/users-guide/)
-- [多様なフォーマットに対応！ドキュメント変換ツール Pandoc を知ろう](https://qiita.com/sky_y/items/80bcd0f353ef5b8980ee)（Qiita）
+- [多様なフォーマットに対応！ドキュメント変換ツールPandocを知ろう](https://qiita.com/sky_y/items/80bcd0f353ef5b8980ee)（Qiita）
+
+---
+
+この記事は下のシリーズの一部です。
+
+https://zenn.dev/hirospark/scraps/549a0863ca408d
