@@ -17,7 +17,7 @@ published: true
 
 # 書き方
 
-jsclasses などは、DOCSTRIP というプログラムを使い、
+jsclasses などは、Docstrip というプログラムを使い、
 
 1. コードに説明が付いた`.dtx`ファイルを作成
 2. `.dtx`ファイルをコンパイルして、説明付き PDF と`.sty`ファイルを出力
@@ -57,16 +57,17 @@ jsclasses などは、DOCSTRIP というプログラムを使い、
 そこで、TeX Live に認識させます。
 
 TeX Live でユーザーのスタイルファイルを入れるディレクトリは`$TEXMFLOCAL/tex/latex/`、
-すなわち`texlive/texmf-local/tex/latex/`です
-^[スタイルファイルを入れることのできるディレクトリは他にもあります。詳細は TeX Live ガイドを参照してください。]。
+すなわち`texlive/texmf-local/tex/latex/`です[^directory]。
 手順は以下のようになります。
+
+[^directory]: スタイルファイルを入れることのできるディレクトリは他にもあります。詳細は TeX Live ガイドを参照してください。
 
 1. 前述のディレクトリにファイルを保存もしくはシンボリックリンクを作成
 2. コマンドラインにて`mktexlsr`を実行（管理者権限が必要）
 
 # パッケージ・クラスファイル向けのコマンド
 
-- `\NeedsTeXFormat{LaTeX2e}`^[2021/04/14 誤植の指摘を受け修正しました。]\
+- `\NeedsTeXFormat{LaTeX2e}`[^typo]\
   必要な LaTeX の形態として `LaTeX2e` を指定します。
   `LaTeX2e` の代わりに `pLaTeX2e` などを指定することもできます。
 - `\ProvidesPackage{<パッケージ名>}[<日付>]`\
@@ -74,6 +75,8 @@ TeX Live でユーザーのスタイルファイルを入れるディレクト�
   警告を出すことができます。`<日付>` は、`2020/12/28` のように指定します。
 - `\endinput`\
   この命令よりも後の記述を無視します。
+
+[^typo]: 2021/04/14 誤植の指摘を受け修正しました。
 
 # 参考資料
 
