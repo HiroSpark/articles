@@ -18,7 +18,7 @@ l3keys とは、expl3 のモジュールで、keyval リストのインタフェ
 
 この記事では、2021-06-18 リリースの expl3 を基に解説します。公式のリファレンスは [`interface3.pdf`](https://ftp.kddilabs.jp/CTAN/macros/latex/contrib/l3kernel/interface3.pdf) で、この記事の情報も全てこれによるものです。
 
-## 前提知識
+# 前提知識
 
 この記事では、expl3 についての説明は行いません。解説としては、以下の記事が大変分かりやすいです。
 
