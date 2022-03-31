@@ -28,7 +28,7 @@ l3keys とは、expl3 のモジュールで、keyval リストのインタフェ
 - [expl3 の標準データ構造 (2) prop, clist](https://blog.wtsnjp.com/2018/08/26/expl3-data-structure2/)
 - [LaTeX3: Programming in LaTeX with Ease](https://www.alanshawn.com/latex3-tutorial/)
 
-## 基本的な使い方
+# 基本的な使い方
 
 以下、特に説明がない限り、`\ExplSyntaxOn` `\ExplSyntaxOff` が適切に行われた状態であると仮定します。
 
@@ -67,7 +67,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 
 のように使う事が出来ます。
 
-## キーの定義
+# キーの定義
 
 前述の例で見たように、`<モジュール>` に対して、
 
@@ -89,7 +89,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 
 があります。
 
-### 1. 変数に値を代入するプロパティ
+## 1. 変数に値を代入するプロパティ
 
 ```tex
 <キー> <プロパティ> = <変数>
@@ -111,7 +111,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 }
 ```
 
-### 2. 関数を定義するプロパティ
+## 2. 関数を定義するプロパティ
 
 ```tex
 <キー> <プロパティ> = <関数>
@@ -139,7 +139,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 
 のようにします。
 
-### 3. 選択キーを定義するプロパティ
+## 3. 選択キーを定義するプロパティ
 
 選択キーとは、キーに指定する値が選択肢として事前に用意されたキーのことです。例えば、jlreq クラスの `paper` キーは、`a4` や `b4` などの選択肢が事前に用意されており、用意されていないものを指定するとエラーが出ます。
 
@@ -153,7 +153,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 
 選択キーを定義する方法は 3 つあります。`.choice:` 又は `.choices:nn` は 1 つだけキーを指定するタイプで、`.multichoices:nn` は複数のキーを指定するタイプです。
 
-#### `.choice:` プロパティ
+### `.choice:` プロパティ
 
 ```tex
 <キー> .choice:,
@@ -176,7 +176,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 }
 ```
 
-#### `.choices:nn` プロパティ
+### `.choices:nn` プロパティ
 
 機能としては、`.choice:` と同じです。
 
@@ -200,7 +200,7 @@ l3keys では、`\keys_define:nn` 命令を使って、モジュールごとに�
 }
 ```
 
-#### `.multichoices:nn` プロパティ
+### `.multichoices:nn` プロパティ
 
 `.choice:` や `.choices:nn` では 1 つのキーしか選べませんが、`.multichoices:nn`では複数のキーを選べます。書式は、`.choices:nn` と全く同じで、
 
