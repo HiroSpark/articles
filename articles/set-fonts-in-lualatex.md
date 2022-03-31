@@ -120,6 +120,6 @@ ABCDEFG あいうえお % 「NotoSerifJP」に
 この記事で紹介したのは、`luatexja-fontspec`パッケージの一部でしかありません。
 さらに知りたい方は、公式ドキュメントを参照してください。
 
-- [`luatexja` – Typeset Japanese with Lua(La)TeX（CTAN）](https://www.ctan.org/pkg/luatexja)
-- [`fontspec` – Advanced font selection in XeLaTeX and LuaLaTeX（CTAN）](https://www.ctan.org/pkg/fontspec)
+- [luatexja – Typeset Japanese with Lua(La)TeX（CTAN）](https://www.ctan.org/pkg/luatexja)
+- [fontspec – Advanced font selection in XeLaTeX and LuaLaTeX（CTAN）](https://www.ctan.org/pkg/fontspec)
 - [独習 LaTeX2e（Amazon）](https://www.amazon.co.jp/%E7%8B%AC%E7%BF%92-LaTeX2%CE%B5-%E5%90%89%E6%B0%B8-%E5%BE%B9%E7%BE%8E/dp/4798115363)
